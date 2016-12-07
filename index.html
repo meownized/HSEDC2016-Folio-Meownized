@@ -25,11 +25,10 @@
   </head>
 
 <body class="landing bg">
+
   <nav class="menubar">
-    <div>
-      <a class="logo" href="posts.html"></a>
-    </div>
-  </nav>
+      <a class="logo"></a>
+    </nav>
 
   <section class="landingWrapper">
     <section class="mainSection left">
@@ -44,13 +43,14 @@
           веб-вёрстки в рамках образовательного проекта<br>
           Hack Exchange.<br>
         </p>
-        <figure></figure>
+        <figure class="rectangle"></figure>
       </section>
 
       <figure class="mockup" id="mockup1"></figure>
     </section>
 
-    <section class="mainSection right">
+    <div class="wrap">
+      <section class="mainSection right">
       <section>
         <h2>
           Всё необходимое<br>
@@ -61,11 +61,14 @@
           портфолио работ, контакты. Кастомизация и<br>
           дополнения остаются за вами.<br>
         </p>
-        <figure></figure>
+        <figure class="rectangle"></figure>
       </section>
 
-      <figure class="mockup" id="mockup2"></figure>
+      <figure class="mockup" id="mockup2_1"></figure>
+      <figure class="mockup" id="mockup2_2"></figure>
+      <figure class="mockup" id="mockup2_3"></figure>
     </section>
+    </div>
 
     <section class="mainSection left">
       <section>
@@ -78,13 +81,14 @@
           планшетах и смартфонах. Не достаёт только версий<br>
           для телефизора и часов.<br>
         </p>
-        <figure></figure>
+        <figure class="rectangle"></figure>
       </section>
 
       <figure class="mockup" id="mockup3"></figure>
     </section>
 
-    <section class="mainSection center">
+    <div class="wrap">
+      <section class="mainSection center">
       <section>
         <h2>
           Возможность самостоятельного<br>
@@ -100,9 +104,12 @@
         </p>
 
         <nav>
-          <a class="btn small white" href="https://github.com/ZakharDay/Wikimedium">Исходный код на GitHub</a>
-          <a class="btn large green" href="http://lessons.hack.exchange">Курс на Hack Exchange</a>
-        </nav>
+            <div class="button">
+              <a class="btn large blue"href="http://lessons.hack.exchange">Курс на Hack Exchange</a>
+            </div>
+              <a class="btn small" href="https://github.com/ZakharDay/Wikimedium">Исходный код на GitHub</a>
+            </nav>
+
       </section>
 
       <footer>
@@ -117,6 +124,7 @@
 
     </section>
   </section>
+  </div
 
 </body>
 

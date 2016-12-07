@@ -1,0 +1,16 @@
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 30px;  
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 88px;
+  height: 26px;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+}
