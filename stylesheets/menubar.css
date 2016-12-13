@@ -1,16 +1,35 @@
 .menubar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 50px;
-  padding: 30px;  
+  padding: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
   display: block;
   margin: 0 auto;
-  width: 88px;
-  height: 26px;
+  width: 84px;
+  height: 24px;
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1180px) {
+
+  .menubar {
+    height: 44px;
+    padding: 2px;
+  }
+
+  .logo {
+    width: 57px;
+    height: 17px;
+  }
+
 }
