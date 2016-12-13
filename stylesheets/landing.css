@@ -325,3 +325,11 @@ body.landing * {
     margin: 4px 0 0 321px;
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1 { background-image: url(../images/about@2x.png); }
+  #mockup2_1 { background-image: url(../images/about@2x.png); }
+  #mockup2_2 { background-image: url(../images/works@2x.png); }
+  #mockup2_3 { background-image: url(../images/work@2x.png); }
+  #mockup3 { background-image: url(../images/screens@2x.png); }
+}
