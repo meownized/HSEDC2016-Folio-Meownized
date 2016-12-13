@@ -1,53 +1,50 @@
 .btn {
   display: block;
-  /*border-style: solid;*/
-  text-align: center;
-  /*margin-left: 400px;*/
-
-}
-
-.blue {
-  background-color: #7FFFD4;
-  color: black;
+  border-style: solid;
+  text-align: center; /* nedeed or not right now i dont know*/
 }
 
 .large {
   width: 300px;
   height: 50px;
   line-height: 50px;
-  font-size: 17px;
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: bold;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  background-color: rgb(80, 227, 194);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  margin: 60px 0 0 559px;
 }
 
 .small {
+  width: 250px;
+  height: 40px;
   line-height: 40px;
-  font-size: 16px;
-  text-decoration: underline;
+  line-height: 40px;
   color: white;
+  font-size: 17px;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: underline;
+  margin: 4px 0 0 588px;
 }
 
 
-@media screen and (max-width: 840px) {
+/*@media screen and (max-width: 840px) {
 
-  /*.btn {
+  .large {
+    width: 214px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+  }
+
+  .small {
     width: 180px;
     height: 30px;
-  }*/
+    line-height: 30px;
+    font-size: 11px;
+  }
 
-.large {
-  width: 214px;
-  height: 36px;
-  line-height: 36px;
-  font-size: 12px;
-}
-
-.small {
-  width: 180px;
-  height: 30px;
-  line-height: 30px;
-  font-size: 11px;
-}
-
-}
+}*/
