@@ -10,10 +10,10 @@ body.landing * {
   transition: all .3s ease;
 }
 
-body.landing {
+/*body.landing {
   min-width: 768px;
   background-color: #FAFAFA;
-}
+}*/
 
 .landingWrapper {
   position: relative;
