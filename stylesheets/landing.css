@@ -10,6 +10,11 @@ body.landing * {
   transition: all .3s ease;
 }
 
+body.landing {
+  min-width: 768px;
+  background-color: #FAFAFA;
+}
+
 .landingWrapper {
   position: relative;
   display: -webkit-box;
@@ -23,7 +28,6 @@ body.landing * {
   -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
-  /*width: 100%;*/
   max-width: 1440px;
   margin: 0 auto;
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
@@ -54,14 +58,14 @@ body.landing * {
   margin: 192px 0 0 161px;
 }
 
+.mainSection.right section {
+  margin: 192px 0 0 700px;
+}
+
 .mainSection.right,
 .mainSection.center {
   color: white;
   background-color: #879696;
-}
-
-.mainSection.right section {
-  margin: 192px 0 0 700px;
 }
 
 .mainSection.center {
@@ -81,8 +85,6 @@ body.landing * {
   font-size: 16px;
   margin: 113px 0 0 4px;
 }
-
-
 
 #rectangle {
   width: 30px;
@@ -135,9 +137,13 @@ body.landing * {
   background-image: url(../images/screens.png);
 }
 
-/*  МЕДИАЗАПРОС FIRST BREAKPOINT */
+/*  МЕДИАЗАПРОС  ZERO AND FIRST BREAKPOINT */
 
-
+@media screen and (max-width: 1440px) {
+  .landingWrapper {
+    width: 100%
+  }
+}
 
 @media screen and (max-width: 1180px) {
 
@@ -234,7 +240,6 @@ body.landing * {
     margin: 4px 0 0 491px;
   }
 }
-
 
 /*  МЕДИАЗАПРОС  SECOND BREAKPOINT */
 @media screen and (max-width: 840px) {
