@@ -1,17 +1,26 @@
 body.landing.bg {
-  background-image: url(../images/mockups/1440.png);
+  /*background-image: url(../images/mockups/1440.png);*/
+  /*opacity: .5;*/
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 body.landing * {
+  -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .landingWrapper {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
   width: 100%;
@@ -61,7 +70,7 @@ body.landing * {
 }
 
 .mainSection.center section {
-  margin: 0 0 0 12px;
+  margin: 189px 0 0 12px;
 }
 
 .mainSection.center p {
