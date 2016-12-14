@@ -1,6 +1,5 @@
 body.landing.bg {
-  /*background-image: url(../images/mockups/1440.png);*/
-  /*opacity: .5;*/
+  background-image: url(../images/mockups/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -10,10 +9,10 @@ body.landing * {
   transition: all .3s ease;
 }
 
-/*body.landing {
+body.landing {
   min-width: 768px;
   background-color: #FAFAFA;
-}*/
+}
 
 .landingWrapper {
   position: relative;
@@ -137,7 +136,7 @@ body.landing * {
   background-image: url(../images/screens.png);
 }
 
-/*  МЕДИАЗАПРОС  ZERO AND FIRST BREAKPOINT */
+/*  МЕДИАЗАПРОС ZERO AND FIRST BREAKPOINT */
 
 @media screen and (max-width: 1440px) {
   .landingWrapper {
@@ -148,8 +147,7 @@ body.landing * {
 @media screen and (max-width: 1180px) {
 
   body.landing.bg {
-    /*background-image: url(../images/mockups/1024.png);*/
-    /*opacity: .5;*/
+    background-image: url(../images/mockups/1024.png);
     background-position: top center;
     background-repeat: no-repeat;
   }
@@ -245,8 +243,7 @@ body.landing * {
 @media screen and (max-width: 840px) {
 
   body.landing.bg {
-    /*background-image: url(../images/mockups/768.png);*/
-    /*opacity: .5;*/
+    background-image: url(../images/mockups/768.png);
     background-position: top center;
     background-repeat: no-repeat;
   }
